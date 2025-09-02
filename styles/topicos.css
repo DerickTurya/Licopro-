@@ -1,0 +1,37 @@
+.topicos {
+    background: #671415;
+    padding: 3.5rem 1.25rem;
+}
+
+.topicos__lista {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+    gap: 1.5rem 3rem;
+    list-style: none;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.topicos__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    min-height: 32px;
+}
+
+.topicos__item::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    flex-shrink: 0;
+    margin-top: 0.5rem;
+}
+
+.topicos__frase {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.45;
+}

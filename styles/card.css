@@ -1,0 +1,54 @@
+.card {
+    margin: 50px auto;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.767);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.24);
+    border-radius: 20px;
+}
+
+.card__titulo {
+    font-size: 2rem;
+    color: #b10000;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card__texto {
+    font-size: 1.1rem;
+    color: #000;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.button__link {
+    display: inline-block;
+    background: linear-gradient(180deg, #d60606, #4d0101);
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.button__link--hover {
+    background: linear-gradient(180deg, #ff2a2a, #f37b7b);
+    transform: scale(1.05);
+}
+
+.card__compra {
+    display: block;
+    margin-top: 1.5rem;
+    max-width: 250px;
+}
+
+.card__imagem {
+    max-width: 350px;
+    height: auto;
+}
